@@ -4,14 +4,14 @@ public class Movie {
     private long id;
     private String title;
 
-//    public Movie() {
-//
-//    }
-//
-//    public Movie(long id, String title) {
-//        this.id = id;
-//        this.title = title;
-//    }
+    public Movie() {
+
+    }
+
+    public Movie(long id, String title) {
+        this.id = id;
+        this.title = title;
+    }
 
     public Long getId(){
         return id;
